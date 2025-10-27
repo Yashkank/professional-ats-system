@@ -1,8 +1,7 @@
 # 🚀 Professional Applicant Tracking System (ATS)
 
-[![CI/CD Pipeline](https://github.com/yourusername/ats-project/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/yourusername/ats-project/actions)
-[![codecov](https://codecov.io/gh/yourusername/ats-project/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/ats-project)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-Yashkank-blue)](https://github.com/Yashkank/professional-ats-system)
 
 > Enterprise-grade Applicant Tracking System with AI-powered resume matching, real-time analytics, and comprehensive recruitment management features.
 
