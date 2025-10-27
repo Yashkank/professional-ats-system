@@ -1,0 +1,116 @@
+[server]
+# Increase max upload size to 200MB
+maxUploadSize = 200
+
+# Increase timeout for file processing
+fileWatcherType = "auto"
+
+# Enable CORS for better browser compatibility
+enableCORS = true
+
+# Increase max message size
+maxMessageSize = 200
+
+[client]
+# Show error details in development
+showErrorDetails = true
+
+# Enable caching for better performance
+caching = true
+
+[browser]
+# Open in default browser
+gatherUsageStats = false
+
+[theme]
+# Professional theme
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

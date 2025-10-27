@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS - Applicant Tracking System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .status {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .status h3 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        
+        .login-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .login-section h3 {
+            color: #495057;
+            margin-bottom: 15px;
+        }
+        
+        .credentials {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .credentials li {
+            margin: 8px 0;
+            color: #6c757d;
+        }
+        
+        .credentials strong {
+            color: #495057;
+        }
+        
+        .links {
+            margin-top: 30px;
+        }
+        
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #5a6fd8;
+        }
+        
+        .api-info {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .api-info h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .api-info a {
+            color: #856404;
+            text-decoration: none;
+        }
+        
+        .api-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🚀</div>
+        <h1>ATS Application</h1>
+        
+        <div class="status">
+            <h3>✅ System Status: Running</h3>
+            <p>Frontend and Backend servers are operational!</p>
+        </div>
+        
+        <div class="login-section">
+            <h3>🔑 Login Credentials</h3>
+            <ul class="credentials">
+                <li><strong>Admin:</strong> admin@ats.com / admin123</li>
+                <li><strong>Recruiter:</strong> recruiter@company.com / recruiter123</li>
+                <li><strong>Candidate:</strong> candidate@email.com / candidate123</li>
+            </ul>
+        </div>
+        
+        <div class="api-info">
+            <h4>🔗 API Endpoints</h4>
+            <p><a href="http://127.0.0.1:8000/docs" target="_blank">Backend API Documentation</a></p>
+            <p><a href="http://127.0.0.1:8000/health" target="_blank">Health Check</a></p>
+        </div>
+        
+        <div class="links">
+            <a href="http://127.0.0.1:8000/docs" target="_blank">API Docs</a>
+            <a href="http://127.0.0.1:8000/health" target="_blank">Health Check</a>
+        </div>
+        
+        <div style="margin-top: 30px; padding: 20px; background: #e9ecef; border-radius: 8px;">
+            <h4 style="color: #495057; margin-bottom: 15px;">📋 Next Steps</h4>
+            <p style="color: #6c757d; line-height: 1.6;">
+                The React application is currently being set up. This page confirms that your ATS system is running correctly. 
+                You can access the backend API documentation and test the authentication endpoints.
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple JavaScript to show the page is interactive
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('ATS Application loaded successfully!');
+            
+            // Add click handlers for better UX
+            const links = document.querySelectorAll('.links a');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    console.log('Opening:', this.href);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
